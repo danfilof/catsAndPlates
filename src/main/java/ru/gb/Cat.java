@@ -3,7 +3,7 @@ package ru.gb;
 public class Cat {
     private String name;
     private int appetite;
-    private boolean fullness;
+    private boolean fullness; // Дефолтное значение boolean - false, следовательно, по условию задачи, все созданные коты голодны.
 
 
     public Cat(String name, int appetite) {
