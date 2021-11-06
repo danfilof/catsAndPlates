@@ -8,9 +8,10 @@ public class MainClass {
             Cat cat1 = new Cat("Murzik", 25);
             Cat cat2 = new Cat("Leopold", 20);
             Plate plate = new Plate(35);
+
             plate.info();
             cat.eat(plate);
-            cat.printFullness();
+            cat.printFullness(); // По условию задачи выводить в консоль информацию о сытости котов не нужно, сделано для проверки метода и наглядности
             plate.info();
             cat1.eat(plate);
             cat1.printFullness();

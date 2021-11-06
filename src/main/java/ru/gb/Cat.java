@@ -12,7 +12,6 @@ public class Cat {
     }
 
     public boolean eat(Plate p) {
-
         if (appetite > p.getFood()) {
             System.out.println("В тарелке недостаточно еды для кота " + name + ".");
             return fullness = false;
@@ -23,9 +22,9 @@ public class Cat {
     }
     public void printFullness () {
         if (fullness) {
-            System.out.println("Кот " + name + " сыт.");
+            System.out.println("Кот " + name + " теперь сыт.");
         } else {
-            System.out.println("Кот " + name + " голоден.");
+            System.out.println("Кот " + name + " остается голоден.");
         }
     }
 }
